@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>web.firstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ThreadDemo</servlet-name>
+    <servlet-class>web.ThreadDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo1</servlet-name>
+    <servlet-class>web.ContextDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo2</servlet-name>
+    <servlet-class>web.ContextDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo3</servlet-name>
+    <servlet-class>web.ContextDemo3</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/firstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ThreadDemo</servlet-name>
+    <url-pattern>/ThreadDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo1</servlet-name>
+    <url-pattern>/ContextDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo2</servlet-name>
+    <url-pattern>/ContextDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo3</servlet-name>
+    <url-pattern>/ContextDemo3</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
